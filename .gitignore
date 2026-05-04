@@ -1,0 +1,13 @@
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.so
+.env
+.env.*
+.DS_Store
+
+# Local secrets — never commit (use *.example* files in the repo as templates)
+app/snipe_it_config.py
+google_credentials.json
